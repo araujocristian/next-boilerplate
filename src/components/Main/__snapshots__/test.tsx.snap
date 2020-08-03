@@ -2,6 +2,12 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9,12 +15,6 @@ exports[`<Main /> should render the heading 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #06092b;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  text-align: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -63,7 +63,7 @@ exports[`<Main /> should render the heading 1`] = `
     TypeScript, ReactJS, NextJS e Styled Components
   </h2>
   <img
-    alt="Um desenvolvedor de frente para tela com código."
+    alt="Um desenvolvedor de frente para uma tela com código."
     class="c4"
     src="/img/hero-illustration.svg"
   />

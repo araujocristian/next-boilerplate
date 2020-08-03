@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 
-import GlobalStyle from '~/styles/global'
+import GlobalStyles from '~/styles/global'
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,7 +16,7 @@ function App({ Component, pageProps }: AppProps) {
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
       </Head>
-      <GlobalStyle />
+      <GlobalStyles />
       <Component {...pageProps} />
     </>
   )
