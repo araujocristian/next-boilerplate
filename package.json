@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "linter": "eslint src"
+    "linter": "eslint src --max-warning=0",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "10.2.0",
@@ -22,7 +23,12 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "lint-staged": ">=10",
     "prettier": "2.2.1",
     "typescript": "^4.2.4"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
