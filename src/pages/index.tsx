@@ -6,8 +6,6 @@ type HomeProps = {
   title: string
 }
 
-const bla = 'aass'
-
 export default function Home({ title = 'React Avançado' }: HomeProps) {
   return (
     <div className={styles.container}>
